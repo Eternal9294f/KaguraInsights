@@ -1,0 +1,542 @@
+[
+  {
+    "review_id": "REV-GW-001",
+    "review_text": "Groww deducted 1% brokerage when I withdrew my mutual fund money. Total fraud! Direct mutual funds are supposed to be zero commission. Refund my money!",
+    "rating": 1,
+    "review_date": "2026-08-12",
+    "app_version": "v8.12.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=001"
+  },
+  {
+    "review_id": "REV-GW-002",
+    "review_text": "Hidden charges on withdrawal! Took out 50000 rupees and got only 49500. Where did 500 rupees disappear? Groww customer care is giving standard automated replies.",
+    "rating": 1,
+    "review_date": "2026-08-14",
+    "app_version": "v8.12.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=002"
+  },
+  {
+    "review_id": "REV-GW-003",
+    "review_text": "Redeemed HDFC Small Cap after 6 months and observed 1% cut from total proceeds. Groww says it is AMC exit load, but why was this not displayed clearly on the redemption screen before submitting order?",
+    "rating": 2,
+    "review_date": "2026-08-16",
+    "app_version": "v8.12.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=003"
+  },
+  {
+    "review_id": "REV-GW-004",
+    "review_text": "Smooth SIP investments every month without glitch. Best app for mutual funds in India.",
+    "rating": 5,
+    "review_date": "2026-08-18",
+    "app_version": "v8.12.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=004"
+  },
+  {
+    "review_id": "REV-GW-005",
+    "review_text": "SIP installment debited from HDFC bank account on 5th August but Groww app status shows payment pending for 3 days. Unit allotment delayed and missed NAV opportunity.",
+    "rating": 1,
+    "review_date": "2026-08-19",
+    "app_version": "v8.12.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=005"
+  },
+  {
+    "review_id": "REV-GW-006",
+    "review_text": "Bank mandate auto-debit failed for my Nippon India SIP even though bank balance was sufficient. Now charged penalty by bank.",
+    "rating": 2,
+    "review_date": "2026-08-21",
+    "app_version": "v8.13.0",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=006"
+  },
+  {
+    "review_id": "REV-GW-007",
+    "review_text": "App crashes repeatedly every day at 9:15 AM when stock market opens. Cannot place stop loss orders during opening volatility.",
+    "rating": 1,
+    "review_date": "2026-08-22",
+    "app_version": "v8.13.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=007"
+  },
+  {
+    "review_id": "REV-GW-008",
+    "review_text": "Portfolio dashboard takes 15 seconds to sync holdings and sometimes shows zero balance. Very scary for active investors.",
+    "rating": 2,
+    "review_date": "2026-08-25",
+    "app_version": "v8.13.1",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=008"
+  },
+  {
+    "review_id": "REV-GW-009",
+    "review_text": "Raised ticket #89421 for double deduction on lumpsum order. Chatbot keeps looping with pre-written FAQ and closes ticket without human response.",
+    "rating": 1,
+    "review_date": "2026-08-27",
+    "app_version": "v8.13.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=009"
+  },
+  {
+    "review_id": "REV-GW-010",
+    "review_text": "Why does Groww take 1% commission on redeeming Parag Parikh flexi cap? You advertise zero commission direct mutual funds. Deceptive marketing!",
+    "rating": 1,
+    "review_date": "2026-08-28",
+    "app_version": "v8.13.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=010"
+  },
+  {
+    "review_id": "REV-GW-011",
+    "review_text": "Exit load fee explanation is completely hidden inside scheme docs. There should be a warning popup showing exact exit load deduction before confirming mutual fund sell order.",
+    "rating": 2,
+    "review_date": "2026-08-30",
+    "app_version": "v8.13.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=011"
+  },
+  {
+    "review_id": "REV-GW-012",
+    "review_text": "Re-KYC process is stuck in loop for 2 weeks. Uploaded Aadhaar and PAN card multiple times but status remains verification in progress. Cannot invest.",
+    "rating": 1,
+    "review_date": "2026-09-01",
+    "app_version": "v8.14.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=012"
+  },
+  {
+    "review_id": "REV-GW-013",
+    "review_text": "CAMS bank account verification failed without reason. Customer support takes 48 hours to reply with copy paste answers.",
+    "rating": 2,
+    "review_date": "2026-09-02",
+    "app_version": "v8.14.0",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=013"
+  },
+  {
+    "review_id": "REV-GW-014",
+    "review_text": "Love the clean interface and easy gold and mutual fund tracking. Best investment app.",
+    "rating": 5,
+    "review_date": "2026-09-04",
+    "app_version": "v8.14.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=014"
+  },
+  {
+    "review_id": "REV-GW-015",
+    "review_text": "Withdrew my mutual fund units after 11 months and saw exit load deduction. I thought after 1 year it is zero, but scheme exit period was 365 days. Show exact remaining days to avoid exit load on holding card!",
+    "rating": 3,
+    "review_date": "2026-09-06",
+    "app_version": "v8.14.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=015"
+  },
+  {
+    "review_id": "REV-GW-016",
+    "review_text": "Groww deducted 500 rupees unauthorized cut when redeeming my ELSS fund after 3 years. Misleading app!",
+    "rating": 1,
+    "review_date": "2026-09-08",
+    "app_version": "v8.14.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=016"
+  },
+  {
+    "review_id": "REV-GW-017",
+    "review_text": "Orders placed at 1:30 PM for mutual funds are allotted next day NAV instead of same day cut-off NAV. Fix payment gateway speed.",
+    "rating": 2,
+    "review_date": "2026-09-10",
+    "app_version": "v8.14.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=017"
+  },
+  {
+    "review_id": "REV-GW-018",
+    "review_text": "UPI Autopay mandate setup failed via Google Pay 4 times. Had to manually pay SIP installment.",
+    "rating": 2,
+    "review_date": "2026-09-12",
+    "app_version": "v8.14.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=018"
+  },
+  {
+    "review_id": "REV-GW-019",
+    "review_text": "Uninstalled after seeing 1% cut on my redemption amount. Groww secretly charges users during withdrawal.",
+    "rating": 1,
+    "review_date": "2026-09-14",
+    "app_version": "v8.14.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=019"
+  },
+  {
+    "review_id": "REV-GW-020",
+    "review_text": "Biometric fingerprint authentication fails frequently after latest update. Prompts for PIN every single time.",
+    "rating": 3,
+    "review_date": "2026-09-16",
+    "app_version": "v8.15.0",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=020"
+  },
+  {
+    "review_id": "REV-GW-021",
+    "review_text": "Customer support executive refused to explain why 1% was deducted from my mutual fund payout. Said 'check AMC rules' without any document link.",
+    "rating": 1,
+    "review_date": "2026-09-18",
+    "app_version": "v8.15.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=021"
+  },
+  {
+    "review_id": "REV-GW-022",
+    "review_text": "Candlestick charts on options chain freeze during high trading volume sessions. Lost money due to lag.",
+    "rating": 1,
+    "review_date": "2026-09-20",
+    "app_version": "v8.15.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=022"
+  },
+  {
+    "review_id": "REV-GW-023",
+    "review_text": "Exit load deduction of 1000 rupees on my ICICI Prudential fund redemption. Please give an exit load calculator widget on the portfolio tab so users know when exit load becomes zero percent.",
+    "rating": 3,
+    "review_date": "2026-09-22",
+    "app_version": "v8.15.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=023"
+  },
+  {
+    "review_id": "REV-GW-024",
+    "review_text": "Direct mutual fund investing is completely free and transparent. No complaints.",
+    "rating": 5,
+    "review_date": "2026-09-24",
+    "app_version": "v8.15.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=024"
+  },
+  {
+    "review_id": "REV-GW-025",
+    "review_text": "Redemption proceeds took 5 working days instead of T+2 days for liquid fund. Customer support had no clear answer.",
+    "rating": 2,
+    "review_date": "2026-09-26",
+    "app_version": "v8.15.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=025"
+  },
+  {
+    "review_id": "REV-GW-026",
+    "review_text": "Groww is charging exit fees on direct mutual funds and hiding it behind small fonts. Shifting portfolio to another broker.",
+    "rating": 1,
+    "review_date": "2026-09-28",
+    "app_version": "v8.15.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=026"
+  },
+  {
+    "review_id": "REV-GW-027",
+    "review_text": "Cannot change registered bank account. Mandate verification stuck on pending Penny drop for 7 days.",
+    "rating": 1,
+    "review_date": "2026-09-30",
+    "app_version": "v8.15.3",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=027"
+  },
+  {
+    "review_id": "REV-GW-028",
+    "review_text": "Helpdesk tickets are automatically marked 'Resolved' without resolving the actual issue. Worst support experience.",
+    "rating": 1,
+    "review_date": "2026-10-02",
+    "app_version": "v8.16.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=028"
+  },
+  {
+    "review_id": "REV-GW-029",
+    "review_text": "App crashed when placing market order in Nifty options. Forced logout and lost my position.",
+    "rating": 1,
+    "review_date": "2026-10-04",
+    "app_version": "v8.16.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=029"
+  },
+  {
+    "review_id": "REV-GW-030",
+    "review_text": "I redeemed units worth 1 lakh and received 99000 in bank. Groww deducted 1000 without upfront breakdown on withdrawal screen. Show the statutory AMC exit load breakdown before I confirm withdrawal!",
+    "rating": 2,
+    "review_date": "2026-10-06",
+    "app_version": "v8.16.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=030"
+  },
+  {
+    "review_id": "REV-GW-031",
+    "review_text": "Fast SIP processing and easy redemption directly to bank account. Excellent experience overall.",
+    "rating": 5,
+    "review_date": "2026-10-08",
+    "app_version": "v8.16.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=031"
+  },
+  {
+    "review_id": "REV-GW-032",
+    "review_text": "Groww took 1% commission on my mutual fund redemption. Zero commission claim is false. Will complain to SEBI.",
+    "rating": 1,
+    "review_date": "2026-10-09",
+    "app_version": "v8.16.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=032"
+  },
+  {
+    "review_id": "REV-GW-033",
+    "review_text": "Double payment debited for single mutual fund lumpsum order via UPI. Bank says money sent, Groww says order failed.",
+    "rating": 1,
+    "review_date": "2026-10-11",
+    "app_version": "v8.16.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=033"
+  },
+  {
+    "review_id": "REV-GW-034",
+    "review_text": "Push notifications for market alerts arrive 10 minutes late. Unusable for intraday traders.",
+    "rating": 2,
+    "review_date": "2026-10-13",
+    "app_version": "v8.16.3",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=034"
+  },
+  {
+    "review_id": "REV-GW-035",
+    "review_text": "Groww customer support number does not exist. Only AI chatbot that gives irrelevant answers and closes conversation.",
+    "rating": 1,
+    "review_date": "2026-10-15",
+    "app_version": "v8.16.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=035"
+  },
+  {
+    "review_id": "REV-GW-036",
+    "review_text": "Exit load deduction of 0.5% caught me off guard when switching mutual fund schemes. Please warn users in UI before confirming switch.",
+    "rating": 2,
+    "review_date": "2026-10-16",
+    "app_version": "v8.17.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=036"
+  },
+  {
+    "review_id": "REV-GW-037",
+    "review_text": "Nominee addition requires physical courier form. Why is there no digital Aadhaar e-sign for nominee update?",
+    "rating": 2,
+    "review_date": "2026-10-18",
+    "app_version": "v8.17.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=037"
+  },
+  {
+    "review_id": "REV-GW-038",
+    "review_text": "SIP cancelled automatically without any notification or SMS alert. Found out after 1 month.",
+    "rating": 2,
+    "review_date": "2026-10-19",
+    "app_version": "v8.17.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=038"
+  },
+  {
+    "review_id": "REV-GW-039",
+    "review_text": "Why does Groww cut 1% fee on mutual funds withdrawal? You claim to be a zero fee direct investment platform. Completely untrustworthy.",
+    "rating": 1,
+    "review_date": "2026-10-20",
+    "app_version": "v8.17.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=039"
+  },
+  {
+    "review_id": "REV-GW-040",
+    "review_text": "Great user interface for beginners. Tracking domestic and US stocks and mutual funds in one place.",
+    "rating": 5,
+    "review_date": "2026-10-21",
+    "app_version": "v8.17.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=040"
+  },
+  {
+    "review_id": "REV-GW-041",
+    "review_text": "Another 1% exit cut on my SBI Bluechip fund. Groww should clearly state on the redeem modal that AMC charges exit load, not Groww.",
+    "rating": 2,
+    "review_date": "2026-10-22",
+    "app_version": "v8.17.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=041"
+  },
+  {
+    "review_id": "REV-GW-042",
+    "review_text": "Penny drop failed for Axis Bank account addition. Waited 4 days and no status update.",
+    "rating": 2,
+    "review_date": "2026-10-23",
+    "app_version": "v8.17.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=042"
+  },
+  {
+    "review_id": "REV-GW-043",
+    "review_text": "Charts lag behind live NSE prices by 3 to 4 seconds during active trading hours. Bad for intraday.",
+    "rating": 2,
+    "review_date": "2026-10-24",
+    "app_version": "v8.17.3",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=043"
+  },
+  {
+    "review_id": "REV-GW-044",
+    "review_text": "Ticket #90112 regarding failed withdrawal has been open for 10 days without resolution. Automated bot repeats same line.",
+    "rating": 1,
+    "review_date": "2026-10-25",
+    "app_version": "v8.18.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=044"
+  },
+  {
+    "review_id": "REV-GW-045",
+    "review_text": "Groww deducted exit load without prior breakdown. Why do you hide this till after transaction is executed?",
+    "rating": 1,
+    "review_date": "2026-10-26",
+    "app_version": "v8.18.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=045"
+  },
+  {
+    "review_id": "REV-GW-046",
+    "review_text": "Direct plans save on expense ratios. Very easy to set up monthly automated SIPs.",
+    "rating": 5,
+    "review_date": "2026-10-27",
+    "app_version": "v8.18.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=046"
+  },
+  {
+    "review_id": "REV-GW-047",
+    "review_text": "Mutual fund NAV allotment delayed by 2 days. Market rose 2% and I got higher NAV price. Unfair execution delay.",
+    "rating": 1,
+    "review_date": "2026-10-28",
+    "app_version": "v8.18.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=047"
+  },
+  {
+    "review_id": "REV-GW-048",
+    "review_text": "Aadhaar OTP verification times out on the signature screen during account opening.",
+    "rating": 2,
+    "review_date": "2026-10-29",
+    "app_version": "v8.18.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=048"
+  },
+  {
+    "review_id": "REV-GW-049",
+    "review_text": "App freezes constantly on Android 14. Have to restart phone to see updated portfolio values.",
+    "rating": 1,
+    "review_date": "2026-10-30",
+    "app_version": "v8.18.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=049"
+  },
+  {
+    "review_id": "REV-GW-050",
+    "review_text": "Fraud broker! They took 1000 rupees cut on my mutual fund redemption claiming exit load. Groww is taking hidden cuts.",
+    "rating": 1,
+    "review_date": "2026-10-31",
+    "app_version": "v8.18.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=050"
+  },
+  {
+    "review_id": "REV-GW-051",
+    "review_text": "Please display AMC exit load applicability and countdown days right on the fund holding card.",
+    "rating": 4,
+    "review_date": "2026-10-31",
+    "app_version": "v8.18.3",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=051"
+  },
+  {
+    "review_id": "REV-GW-052",
+    "review_text": "Auto-pay debit happened twice for my monthly Kotak Emerging Equity SIP. Need refund for second debit.",
+    "rating": 1,
+    "review_date": "2026-11-01",
+    "app_version": "v8.18.4",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=052"
+  },
+  {
+    "review_id": "REV-GW-053",
+    "review_text": "No human agent on phone support. Chatbot keeps directing to useless FAQ articles.",
+    "rating": 1,
+    "review_date": "2026-11-02",
+    "app_version": "v8.18.4",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=053"
+  },
+  {
+    "review_id": "REV-GW-054",
+    "review_text": "Redeemed Mirae Asset Large Cap and got 1% less than displayed current value. Groww cheated me.",
+    "rating": 1,
+    "review_date": "2026-11-03",
+    "app_version": "v8.18.5",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=054"
+  },
+  {
+    "review_id": "REV-GW-055",
+    "review_text": "Watchlist sorting resets to default alphabetically whenever app is closed. Minor annoyance.",
+    "rating": 3,
+    "review_date": "2026-11-04",
+    "app_version": "v8.18.5",
+    "platform": "App Store",
+    "source_url": "https://apps.apple.com/app/groww/id1404871703?reviewId=055"
+  },
+  {
+    "review_id": "REV-GW-056",
+    "review_text": "Re-KYC requirement was notified only after SIP was already paused. Lost one month compounding.",
+    "rating": 2,
+    "review_date": "2026-11-05",
+    "app_version": "v8.19.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=056"
+  },
+  {
+    "review_id": "REV-GW-057",
+    "review_text": "Best investment app for college students. Simple, zero hidden fees on investing, very transparent.",
+    "rating": 5,
+    "review_date": "2026-11-06",
+    "app_version": "v8.19.0",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=057"
+  },
+  {
+    "review_id": "REV-GW-058",
+    "review_text": "Why does Groww deduct money during withdrawal? You advertise zero commission direct mutual funds. Deceptive marketing!",
+    "rating": 1,
+    "review_date": "2026-11-07",
+    "app_version": "v8.19.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=058"
+  },
+  {
+    "review_id": "REV-GW-059",
+    "review_text": "Money deducted from bank via UPI but mutual fund order failed. Took 7 business days to get refund.",
+    "rating": 2,
+    "review_date": "2026-11-08",
+    "app_version": "v8.19.1",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=059"
+  },
+  {
+    "review_id": "REV-GW-060",
+    "review_text": "Mutual fund withdrawal screen must show a clear breakdown of AMC exit load vs broker fee zero. Otherwise users feel cheated.",
+    "rating": 3,
+    "review_date": "2026-11-09",
+    "app_version": "v8.19.2",
+    "platform": "Google Play",
+    "source_url": "https://play.google.com/store/apps/details?id=com.nextbillion.groww&reviewId=060"
+  }
+]
