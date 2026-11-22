@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Kagura — Customer Feedback Intelligence Platform (Groww)',
-  description: 'AI-assisted customer feedback intelligence platform converting raw public app reviews into structured product insights with Human-in-the-Loop MCP governance.',
+  title: 'Kagura Insights — Customer Feedback Intelligence Platform',
+  description: 'AI-powered customer feedback intelligence platform demonstrated on Groww with Human-in-the-Loop governance.',
 };
 
 export default function RootLayout({
@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-[#0f1115] text-slate-100 antialiased selection:bg-[#00d09c] selection:text-black">
+    <html lang="en">
+      <body className="bg-[#f8fafc] text-slate-900 antialiased selection:bg-[#00d09c]/20 selection:text-emerald-900">
         {children}
       </body>
     </html>
