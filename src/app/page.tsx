@@ -32,7 +32,7 @@ import {
 
 import defaultReviewsData from '../../data/reviews.json';
 
-export default function KaguraOutpostApp() {
+export default function KaguraPeacefulApp() {
   const [currentStep, setCurrentStep] = useState<number>(1);
 
   // Core Data
@@ -194,30 +194,31 @@ export default function KaguraOutpostApp() {
     .filter(Boolean).length;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#F2F5F8] via-[#F7F9FB] to-[#EDF2F7] text-slate-800 font-sans antialiased selection:bg-teal-100 selection:text-teal-900 pb-20">
-      {/* Delicate Atmospheric Ambient Glow */}
-      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[900px] h-[340px] bg-gradient-to-b from-teal-200/25 via-emerald-100/20 to-transparent blur-3xl pointer-events-none -z-10" />
+    <div className="min-h-screen bg-[#FAFAF8] text-[#191919] font-sans antialiased selection:bg-emerald-100 selection:text-emerald-900 pb-24">
+      {/* Soft Ethereal Ambient Wash */}
+      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[850px] h-[320px] bg-gradient-to-b from-emerald-100/30 via-slate-100/20 to-transparent blur-3xl pointer-events-none -z-10" />
 
-      {/* Top Minimalist Header */}
-      <header className="border-b border-slate-200/60 bg-white/70 backdrop-blur-xl sticky top-0 z-40 px-6 py-3">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-2.5">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-xs font-semibold tracking-tight text-slate-700">Groww Workspace</span>
-            <span className="text-[11px] text-slate-400 font-normal">&bull; Mutual Funds & Direct Stocks</span>
+      {/* Top Quiet Header */}
+      <header className="border-b border-[#EAEAE5] bg-[#FAFAF8]/90 backdrop-blur-md sticky top-0 z-40 px-6 py-3">
+        <div className="max-w-4xl mx-auto flex items-center justify-between">
+          <div className="flex items-center space-x-2 text-xs">
+            <span className="w-2 h-2 rounded-full bg-emerald-500" />
+            <span className="font-semibold text-slate-800">Groww Workspace</span>
+            <span className="text-slate-400">&bull;</span>
+            <span className="text-slate-500">Q3 Mutual Funds & Stocks</span>
           </div>
 
           <div className="flex items-center space-x-2 text-xs">
             <button
               onClick={() => setShowConfig(!showConfig)}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-white/80 hover:bg-white text-slate-600 border border-slate-200/80 shadow-sm transition font-medium"
+              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-slate-50 text-slate-700 border border-[#EAEAE5] shadow-[0_1px_3px_rgba(0,0,0,0.02)] transition font-medium"
             >
-              <Sliders className="w-3.5 h-3.5 text-teal-600" />
+              <Sliders className="w-3.5 h-3.5 text-emerald-600" />
               <span>{executionMode === 'LOCAL_ENGINE' ? 'Local Engine' : 'n8n Cloud'}</span>
             </button>
 
-            <label className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-white/80 hover:bg-white text-slate-600 border border-slate-200/80 shadow-sm cursor-pointer transition font-medium">
-              <Upload className="w-3.5 h-3.5 text-teal-600" />
+            <label className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-slate-50 text-slate-700 border border-[#EAEAE5] shadow-[0_1px_3px_rgba(0,0,0,0.02)] cursor-pointer transition font-medium">
+              <Upload className="w-3.5 h-3.5 text-emerald-600" />
               <span>Upload CSV</span>
               <input type="file" accept=".csv,.json" onChange={handleFileUpload} className="hidden" />
             </label>
@@ -225,7 +226,7 @@ export default function KaguraOutpostApp() {
             <button
               onClick={() => runPipeline(defaultReviewsData as RawReview[])}
               disabled={loading}
-              className="flex items-center space-x-1.5 px-4 py-1.5 rounded-full bg-slate-900 hover:bg-slate-800 text-white font-medium shadow-sm transition disabled:opacity-50"
+              className="flex items-center space-x-1.5 px-4 py-1.5 rounded-full bg-[#111827] hover:bg-black text-white font-medium shadow-sm transition disabled:opacity-50"
             >
               <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
               <span>{loading ? 'Processing...' : 'Run Pipeline'}</span>
@@ -235,22 +236,22 @@ export default function KaguraOutpostApp() {
       </header>
 
       {/* Main Centered Container */}
-      <main className="max-w-3xl mx-auto px-6 pt-14 space-y-12">
+      <main className="max-w-3xl mx-auto px-6 pt-16 space-y-12">
         {/* ========================================================= */}
-        {/* CENTERED HERO SECTION: LOGO + BIG TITLE + TWO LINES       */}
+        {/* CENTERED LOGO + BIG TITLE + TWO EXACT LINES               */}
         {/* ========================================================= */}
         <div className="text-center space-y-5">
           {/* Centered Distinctive Logo Mark */}
-          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-cyan-500 text-white font-bold text-2xl shadow-lg shadow-teal-500/20 ring-4 ring-white/80">
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#111827] text-white font-extrabold text-2xl shadow-md ring-4 ring-white">
             K
           </div>
 
           {/* VERY BIG CENTER TITLE */}
-          <div className="space-y-2">
-            <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-slate-900">
+          <div className="space-y-3">
+            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-[#111827]">
               Kagura Insights
             </h1>
-            
+
             {/* EXACTLY TWO LINES DESCRIBING WHAT IT IS */}
             <div className="text-slate-500 text-sm sm:text-base leading-relaxed space-y-1 max-w-xl mx-auto font-normal">
               <p>An AI-powered customer feedback intelligence platform demonstrated on <strong>Groww</strong>.</p>
@@ -260,9 +261,9 @@ export default function KaguraOutpostApp() {
         </div>
 
         {/* ========================================================= */}
-        {/* SERENE 5-STEP GUIDED STEPPER                              */}
+        {/* SERENE CALM STEPPER PILL BAR                              */}
         {/* ========================================================= */}
-        <div className="bg-white/80 backdrop-blur-md p-1.5 rounded-full border border-slate-200/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.03)] flex items-center justify-between text-xs">
+        <div className="bg-[#EFEFEA]/80 p-1.5 rounded-full border border-[#E5E5DE] shadow-inner flex items-center justify-between text-xs">
           {[
             { id: 1, label: '1. Review Corpus' },
             { id: 2, label: '2. 5-Categories' },
@@ -273,10 +274,10 @@ export default function KaguraOutpostApp() {
             <button
               key={step.id}
               onClick={() => setCurrentStep(step.id)}
-              className={`flex-1 py-2 rounded-full font-medium transition text-center ${
+              className={`flex-1 py-2.5 rounded-full font-medium transition text-center ${
                 currentStep === step.id
-                  ? 'bg-slate-900 text-white shadow-sm font-semibold'
-                  : 'text-slate-500 hover:text-slate-800'
+                  ? 'bg-white text-slate-900 shadow-sm border border-[#E0E0D9] font-bold'
+                  : 'text-slate-500 hover:text-slate-900'
               }`}
             >
               {step.label}
@@ -297,7 +298,7 @@ export default function KaguraOutpostApp() {
                   placeholder="Search reviews or Review ID..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-white/90 border border-slate-200/90 rounded-full pl-9 pr-4 py-2 text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-slate-400 shadow-sm"
+                  className="w-full bg-white border border-[#EAEAE5] rounded-full pl-9 pr-4 py-2 text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-slate-400 shadow-[0_1px_3px_rgba(0,0,0,0.02)]"
                 />
               </div>
 
@@ -305,7 +306,7 @@ export default function KaguraOutpostApp() {
                 <span>{filteredReviews.length} reviews loaded</span>
                 <button
                   onClick={() => setCurrentStep(2)}
-                  className="flex items-center gap-1.5 px-4 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-medium transition shadow-sm"
+                  className="flex items-center gap-1.5 px-4 py-1.5 bg-[#111827] hover:bg-black text-white rounded-full font-medium transition shadow-sm"
                 >
                   <span>Next: 5-Categories</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -313,18 +314,18 @@ export default function KaguraOutpostApp() {
               </div>
             </div>
 
-            <div className="bg-white/90 backdrop-blur-md border border-slate-200/80 rounded-3xl overflow-hidden divide-y divide-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.03)]">
+            <div className="bg-white border border-[#EAEAE5] rounded-3xl overflow-hidden divide-y divide-[#F0F0EA] shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
               {filteredReviews.slice(0, 10).map((r) => (
-                <div key={r.review_id} className="p-4 hover:bg-slate-50/60 transition space-y-1.5">
+                <div key={r.review_id} className="p-4 hover:bg-[#FAFAF8] transition space-y-1.5">
                   <div className="flex items-center justify-between text-xs">
                     <div className="flex items-center gap-2">
-                      <span className="font-mono text-teal-700 font-semibold">{r.review_id}</span>
+                      <span className="font-mono text-emerald-700 font-semibold">{r.review_id}</span>
                       <span className="text-slate-300">&bull;</span>
                       <span className="text-slate-400">{r.review_date}</span>
                       <span className="text-slate-300">&bull;</span>
-                      <span className="text-amber-500 font-semibold">{r.rating} ★</span>
+                      <span className="text-amber-500 font-bold">{r.rating} ★</span>
                     </div>
-                    <span className="text-[11px] bg-slate-100/80 text-slate-600 border border-slate-200/60 px-2.5 py-0.5 rounded-full font-medium">
+                    <span className="text-[11px] bg-[#F5F5F0] text-slate-700 border border-[#E8E8E0] px-2.5 py-0.5 rounded-full font-medium">
                       {r.category_name}
                     </span>
                   </div>
@@ -347,7 +348,7 @@ export default function KaguraOutpostApp() {
               </div>
               <button
                 onClick={() => setCurrentStep(3)}
-                className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-medium transition shadow-sm"
+                className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-[#111827] hover:bg-black text-white rounded-full font-medium transition shadow-sm"
               >
                 <span>Next: Theme Friction</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -392,15 +393,15 @@ export default function KaguraOutpostApp() {
                   rule: 'Applies when support unresponsiveness is the primary grievance.'
                 }
               ].map((c) => (
-                <div key={c.id} className="bg-white/90 backdrop-blur-md border border-slate-200/80 p-5 rounded-3xl space-y-2 shadow-[0_8px_30px_rgb(0,0,0,0.02)]">
+                <div key={c.id} className="bg-white border border-[#EAEAE5] p-5 rounded-3xl space-y-2 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-slate-800">{c.name}</span>
-                    <span className="text-[11px] bg-slate-100 text-slate-600 px-2.5 py-0.5 rounded-full font-mono font-medium">
+                    <span className="text-[11px] bg-[#F5F5F0] text-slate-600 px-2.5 py-0.5 rounded-full font-mono font-medium">
                       {c.count} reviews
                     </span>
                   </div>
                   <p className="text-xs text-slate-500 leading-relaxed">{c.desc}</p>
-                  <div className="text-[11px] text-slate-400 pt-1.5 border-t border-slate-100">
+                  <div className="text-[11px] text-slate-400 pt-1.5 border-t border-[#F0F0EA]">
                     <span className="font-semibold text-slate-600">Ambiguity Rule:</span> {c.rule}
                   </div>
                 </div>
@@ -421,7 +422,7 @@ export default function KaguraOutpostApp() {
               </div>
               <button
                 onClick={() => setCurrentStep(4)}
-                className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-full font-medium transition shadow-sm"
+                className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-[#111827] hover:bg-black text-white rounded-full font-medium transition shadow-sm"
               >
                 <span>Next: Weekly Pulse</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -430,10 +431,10 @@ export default function KaguraOutpostApp() {
 
             <div className="space-y-3.5">
               {themes.slice(0, 3).map((t, idx) => (
-                <div key={t.theme_id} className="bg-white/90 backdrop-blur-md border border-slate-200/80 p-5 rounded-3xl space-y-2.5 shadow-[0_8px_30px_rgb(0,0,0,0.02)]">
+                <div key={t.theme_id} className="bg-white border border-[#EAEAE5] p-5 rounded-3xl space-y-2.5 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <span className="w-5 h-5 rounded-full bg-teal-50 text-teal-800 border border-teal-200 text-[11px] font-bold flex items-center justify-center">
+                      <span className="w-5 h-5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-bold flex items-center justify-center">
                         {idx + 1}
                       </span>
                       <span className="text-sm font-bold text-slate-900">{t.theme_name}</span>
@@ -447,15 +448,15 @@ export default function KaguraOutpostApp() {
                     <span className="font-semibold text-slate-700">Root Cause:</span> {t.underlying_cause}
                   </p>
 
-                  <div className="bg-slate-50/80 p-3.5 rounded-2xl border border-slate-100 text-xs italic text-slate-600">
+                  <div className="bg-[#FAF9F6] p-3.5 rounded-2xl border border-[#ECECE6] text-xs italic text-slate-600">
                     "{t.quotations[0]?.quote}"
-                    <div className="mt-1.5 text-[11px] not-italic font-mono text-teal-700 flex items-center justify-between">
+                    <div className="mt-1.5 text-[11px] not-italic font-mono text-emerald-700 flex items-center justify-between">
                       <span>Source: {t.quotations[0]?.review_id}</span>
                       <span className="text-slate-400">{t.quotations[0]?.review_date}</span>
                     </div>
                   </div>
 
-                  <div className="text-xs text-teal-800 bg-teal-50/80 border border-teal-100 px-3 py-1.5 rounded-xl font-medium">
+                  <div className="text-xs text-emerald-850 bg-emerald-50/70 border border-emerald-100 px-3 py-1.5 rounded-xl font-medium">
                     Proposed Fix: {t.recommended_action}
                   </div>
                 </div>
@@ -487,7 +488,7 @@ export default function KaguraOutpostApp() {
 
                 <button
                   onClick={() => setCurrentStep(5)}
-                  className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded-full transition shadow-sm"
+                  className="flex items-center gap-1.5 text-xs px-4 py-1.5 bg-[#111827] hover:bg-black text-white font-medium rounded-full transition shadow-sm"
                 >
                   <span>Proceed to Approval</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -495,25 +496,25 @@ export default function KaguraOutpostApp() {
               </div>
             </div>
 
-            <div className="bg-white/90 backdrop-blur-md border border-slate-200/80 p-7 rounded-3xl space-y-5 text-xs sm:text-sm shadow-[0_8px_30px_rgb(0,0,0,0.03)]">
+            <div className="bg-white border border-[#EAEAE5] p-7 rounded-3xl space-y-5 text-xs sm:text-sm shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
               <div>
-                <div className="text-[11px] font-bold text-teal-700 uppercase tracking-wider mb-1">A. Executive Summary</div>
+                <div className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider mb-1">A. Executive Summary</div>
                 <p className="text-slate-600 leading-relaxed">{pulse?.sections.executive_summary}</p>
               </div>
 
               <div>
-                <div className="text-[11px] font-bold text-teal-700 uppercase tracking-wider mb-1">B. Top Three Friction Themes</div>
+                <div className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider mb-1">B. Top Three Friction Themes</div>
                 <div className="text-slate-600 leading-relaxed whitespace-pre-line space-y-1">{pulse?.sections.top_three_friction_themes}</div>
               </div>
 
               <div>
-                <div className="text-[11px] font-bold text-teal-700 uppercase tracking-wider mb-1">C. Actionable Recommendations</div>
+                <div className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider mb-1">C. Actionable Recommendations</div>
                 <div className="text-slate-600 leading-relaxed whitespace-pre-line space-y-1">{pulse?.sections.actionable_recommendations}</div>
               </div>
 
               <div>
-                <div className="text-[11px] font-bold text-teal-700 uppercase tracking-wider mb-1">D. Source-Linked Explainer</div>
-                <p className="text-slate-400 leading-relaxed pt-2.5 border-t border-slate-100">{pulse?.sections.source_linked_explainer}</p>
+                <div className="text-[11px] font-bold text-emerald-700 uppercase tracking-wider mb-1">D. Source-Linked Explainer</div>
+                <p className="text-slate-400 leading-relaxed pt-2.5 border-t border-[#F0F0EA]">{pulse?.sections.source_linked_explainer}</p>
               </div>
             </div>
           </div>
@@ -524,10 +525,10 @@ export default function KaguraOutpostApp() {
         {/* ========================================================= */}
         {currentStep === 5 && (
           <div className="space-y-4">
-            <div className="flex items-center justify-between border-b border-slate-200/60 pb-3">
+            <div className="flex items-center justify-between border-b border-[#EAEAE5] pb-3">
               <div>
                 <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-teal-600" />
+                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
                   <span>Human-in-the-Loop Approval Gate</span>
                 </h3>
                 <p className="text-xs text-slate-400 mt-0.5">
@@ -545,9 +546,9 @@ export default function KaguraOutpostApp() {
             </div>
 
             {/* Email Recipient Input */}
-            <div className="bg-white/90 backdrop-blur-md border border-slate-200/80 p-4 rounded-3xl space-y-1.5 shadow-[0_8px_30px_rgb(0,0,0,0.02)]">
+            <div className="bg-white border border-[#EAEAE5] p-4 rounded-3xl space-y-1.5 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
               <label className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
-                <Mail className="w-3.5 h-3.5 text-teal-600" />
+                <Mail className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Stakeholder Email Recipient:</span>
               </label>
               <input
@@ -555,15 +556,15 @@ export default function KaguraOutpostApp() {
                 value={recipientEmail}
                 onChange={(e) => setRecipientEmail(e.target.value)}
                 placeholder="your.email@groww.in"
-                className="w-full bg-slate-50/80 border border-slate-200/80 rounded-2xl px-3.5 py-2 text-xs text-slate-800 focus:outline-none focus:border-slate-400"
+                className="w-full bg-[#FAF9F6] border border-[#E5E5DE] rounded-2xl px-3.5 py-2 text-xs text-slate-800 focus:outline-none focus:border-slate-400"
               />
             </div>
 
             {/* Inline Editor */}
-            <div className="bg-white/90 backdrop-blur-md border border-slate-200/80 p-5 rounded-3xl space-y-3 shadow-[0_8px_30px_rgb(0,0,0,0.02)]">
+            <div className="bg-white border border-[#EAEAE5] p-5 rounded-3xl space-y-3 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
               <div className="flex items-center justify-between text-xs">
                 <span className="font-bold text-slate-800">Review & Edit Pulse Content:</span>
-                <span className={`font-mono font-semibold ${wordCount <= 250 ? 'text-teal-700' : 'text-rose-600'}`}>
+                <span className={`font-mono font-semibold ${wordCount <= 250 ? 'text-emerald-700' : 'text-rose-600'}`}>
                   {wordCount} / 250 words
                 </span>
               </div>
@@ -572,21 +573,21 @@ export default function KaguraOutpostApp() {
                 rows={11}
                 value={editedPulseText}
                 onChange={(e) => setEditedPulseText(e.target.value)}
-                className="w-full bg-slate-50/80 border border-slate-200/80 rounded-2xl p-4 text-xs font-mono text-slate-700 focus:outline-none focus:border-slate-400 leading-relaxed"
+                className="w-full bg-[#FAF9F6] border border-[#E5E5DE] rounded-2xl p-4 text-xs font-mono text-slate-700 focus:outline-none focus:border-slate-400 leading-relaxed"
               />
 
               <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
                 <div className="text-xs text-slate-400 font-mono">
                   Signer: <strong className="text-slate-700">PM-Groww-Lead</strong>
                   {approvalRecord?.signature_hash && (
-                    <span className="text-teal-700 ml-2 font-bold">[{approvalRecord.signature_hash}]</span>
+                    <span className="text-emerald-700 ml-2 font-bold">[{approvalRecord.signature_hash}]</span>
                   )}
                 </div>
 
                 <button
                   onClick={handleApproveAndDispatch}
                   disabled={dispatching || wordCount > 250}
-                  className="flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-medium text-xs rounded-full transition shadow-md disabled:opacity-50"
+                  className="flex items-center gap-2 px-5 py-2.5 bg-[#111827] hover:bg-black text-white font-medium text-xs rounded-full transition shadow-md disabled:opacity-50"
                 >
                   {dispatching ? (
                     <>
@@ -605,41 +606,41 @@ export default function KaguraOutpostApp() {
 
             {/* Results Card */}
             {dispatchResult && (
-              <div className="border border-teal-200 bg-teal-50/50 p-5 rounded-3xl space-y-3">
+              <div className="border border-emerald-200 bg-emerald-50/40 p-5 rounded-3xl space-y-3">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-teal-600" />
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                     <span className="text-xs font-bold text-slate-900">Dispatched via Model Context Protocol (MCP)</span>
                   </div>
-                  <span className="text-[11px] font-mono bg-teal-100 text-teal-800 border border-teal-200 px-2.5 py-0.5 rounded-full font-bold">
+                  <span className="text-[11px] font-mono bg-emerald-100 text-emerald-800 border border-emerald-200 px-2.5 py-0.5 rounded-full font-bold">
                     SUCCESS
                   </span>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 space-y-1 shadow-sm">
+                  <div className="p-3.5 rounded-2xl bg-white border border-[#EAEAE5] space-y-1 shadow-sm">
                     <span className="text-slate-400 font-medium block">Google Docs Documentation:</span>
                     <a
                       href={dispatchResult.google_doc_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-teal-700 hover:underline font-bold"
+                      className="inline-flex items-center gap-1 text-emerald-700 hover:underline font-bold"
                     >
                       <span>Open Approved Google Doc</span>
                       <ExternalLink className="w-3 h-3" />
                     </a>
                   </div>
 
-                  <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 space-y-1 shadow-sm">
+                  <div className="p-3.5 rounded-2xl bg-white border border-[#EAEAE5] space-y-1 shadow-sm">
                     <span className="text-slate-400 font-medium block">Gmail Stakeholder Draft:</span>
-                    <span className="font-mono text-teal-800 font-bold">{dispatchResult.gmail_draft_id}</span>
+                    <span className="font-mono text-emerald-800 font-bold">{dispatchResult.gmail_draft_id}</span>
                     <div className="text-[10px] text-slate-400">Staged to: {recipientEmail} (Zero auto-send)</div>
                   </div>
                 </div>
 
                 <div className="pt-1">
                   <div className="text-[11px] font-bold text-slate-500 mb-1">Execution Audit Trail:</div>
-                  <div className="bg-white p-3 rounded-2xl border border-slate-200/80 font-mono text-[10px] text-teal-800 space-y-0.5 shadow-sm">
+                  <div className="bg-white p-3 rounded-2xl border border-[#EAEAE5] font-mono text-[10px] text-emerald-800 space-y-0.5 shadow-sm">
                     {dispatchResult.audit_trail.map((log, i) => (
                       <div key={i}>{log}</div>
                     ))}
@@ -652,15 +653,15 @@ export default function KaguraOutpostApp() {
 
         {/* Configuration Modal */}
         {showConfig && (
-          <div className="bg-white/95 backdrop-blur-md border border-slate-200/80 p-5 rounded-3xl space-y-3 text-xs shadow-lg">
+          <div className="bg-white border border-[#EAEAE5] p-5 rounded-3xl space-y-3 text-xs shadow-lg">
             <h4 className="font-bold text-slate-900">Execution Mode Settings</h4>
             <div className="grid grid-cols-2 gap-3">
               <button
                 onClick={() => setExecutionMode('LOCAL_ENGINE')}
                 className={`p-3 rounded-2xl border text-left transition ${
                   executionMode === 'LOCAL_ENGINE'
-                    ? 'border-teal-500 bg-teal-50/50 text-slate-900 font-semibold'
-                    : 'border-slate-200 text-slate-500'
+                    ? 'border-emerald-500 bg-emerald-50/50 text-slate-900 font-semibold'
+                    : 'border-[#EAEAE5] text-slate-500'
                 }`}
               >
                 <div className="font-bold">Local Engine</div>
@@ -671,8 +672,8 @@ export default function KaguraOutpostApp() {
                 onClick={() => setExecutionMode('N8N_CLOUD_WEBHOOK')}
                 className={`p-3 rounded-2xl border text-left transition ${
                   executionMode === 'N8N_CLOUD_WEBHOOK'
-                    ? 'border-teal-500 bg-teal-50/50 text-slate-900 font-semibold'
-                    : 'border-slate-200 text-slate-500'
+                    ? 'border-emerald-500 bg-emerald-50/50 text-slate-900 font-semibold'
+                    : 'border-[#EAEAE5] text-slate-500'
                 }`}
               >
                 <div className="font-bold">n8n Cloud Webhook</div>
