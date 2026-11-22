@@ -13,6 +13,7 @@ export function createPendingApprovalRecord(pulse: WeeklyProductPulse, reviewerI
       create_google_doc: false,
       create_gmail_draft: false
     },
+    recipient_email: 'product-leadership@groww.in',
     notes: 'Awaiting formal human review and authorization.',
     signature_hash: ''
   };

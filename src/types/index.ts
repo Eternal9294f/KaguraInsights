@@ -103,6 +103,7 @@ export interface ApprovalRecord {
     create_google_doc: boolean;
     create_gmail_draft: boolean;
   };
+  recipient_email?: string;
   notes?: string;
   signature_hash: string;
 }
