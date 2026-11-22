@@ -251,12 +251,12 @@ export default function KaguraPeacefulApp() {
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-[#111827]">
               Kagura Insights
             </h1>
-
-            {/* EXACTLY TWO LINES DESCRIBING WHAT IT IS */}
-            <div className="text-slate-500 text-sm sm:text-base leading-relaxed space-y-1 max-w-xl mx-auto font-normal">
-              <p>An AI-powered customer feedback intelligence platform demonstrated on <strong>Groww</strong>.</p>
-              <p>Transforms public app reviews into structured friction insights and an executive Weekly Product Pulse gated by Human-in-the-Loop approval.</p>
-            </div>
+            <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-800">
+              Turn public app reviews into actionable product decisions.
+            </h2>
+            <p className="text-slate-500 text-sm sm:text-base leading-relaxed max-w-xl mx-auto font-normal pt-1">
+              Kagura normalizes raw reviews for <strong>Groww</strong>, categorizes complaints into 5 core types, quantifies recurring friction, and crafts an executive Weekly Product Pulse gated by Human-in-the-Loop approval.
+            </p>
           </div>
         </div>
 
