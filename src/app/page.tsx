@@ -31,17 +31,28 @@ import {
 } from '@/types';
 
 import defaultReviewsData from '../../data/reviews.json';
+import { classifyAllReviews } from '@/lib/taxonomy';
+import { extractThemesAndRank, generateRecommendations } from '@/lib/theme_engine';
+import { generateWeeklyProductPulse } from '@/lib/pulse_generator';
+import { createPendingApprovalRecord } from '@/lib/hitl_gate';
+
+// Pre-compute initial state so data renders immediately without waiting for API
+const initialClassified = classifyAllReviews(defaultReviewsData as RawReview[]);
+const initialThemes = extractThemesAndRank(initialClassified);
+const initialRecs = generateRecommendations(initialThemes);
+const initialPulse = generateWeeklyProductPulse('Groww Mutual Funds & Stocks', defaultReviewsData.length, initialThemes, initialRecs);
+const initialApproval = createPendingApprovalRecord(initialPulse);
 
 export default function KaguraPeacefulApp() {
   const [currentStep, setCurrentStep] = useState<number>(1);
 
-  // Core Data
+  // Core Data initialized with default corpus
   const [reviews, setReviews] = useState<RawReview[]>(defaultReviewsData as RawReview[]);
-  const [classifiedReviews, setClassifiedReviews] = useState<ClassifiedReview[]>([]);
-  const [themes, setThemes] = useState<FrictionTheme[]>([]);
-  const [recommendations, setRecommendations] = useState<ProductRecommendation[]>([]);
-  const [pulse, setPulse] = useState<WeeklyProductPulse | null>(null);
-  const [approvalRecord, setApprovalRecord] = useState<ApprovalRecord | null>(null);
+  const [classifiedReviews, setClassifiedReviews] = useState<ClassifiedReview[]>(initialClassified);
+  const [themes, setThemes] = useState<FrictionTheme[]>(initialThemes);
+  const [recommendations, setRecommendations] = useState<ProductRecommendation[]>(initialRecs);
+  const [pulse, setPulse] = useState<WeeklyProductPulse | null>(initialPulse);
+  const [approvalRecord, setApprovalRecord] = useState<ApprovalRecord | null>(initialApproval);
   const [dispatchResult, setDispatchResult] = useState<DownstreamDispatchResult | null>(null);
 
   // UI state
@@ -49,7 +60,7 @@ export default function KaguraPeacefulApp() {
   const [dispatching, setDispatching] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [editedPulseText, setEditedPulseText] = useState<string>('');
+  const [editedPulseText, setEditedPulseText] = useState<string>(initialPulse.markdown_full);
   const [recipientEmail, setRecipientEmail] = useState<string>('aditya.pm@groww.in');
 
   // Execution Mode
